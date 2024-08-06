@@ -1,0 +1,92 @@
+.Heading {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.sudoku_grid {
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.sudoku_grid div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    color: black;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+#GetPuzzle, #SolvePuzzle {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #4CAF50;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, .3);
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.box1 {
+    background-color: #f1f1f1;
+    border: 2px solid #000;
+}
+
+.box1:hover {
+    background-color: #e0e0e0;
+}
+
+.box2 {
+    background-color: #d1e7dd;
+    border: 2px solid #000;
+}
+
+.box2:hover {
+    background-color: #b4d4c3;
+}
+
+.box3 {
+    background-color: #f8d7da;
+    border: 2px solid #000;
+}
+
+.box3:hover {
+    background-color: #f1b0b7;
+}
+
+.bl {
+    border-left: 4px solid black;
+}
+
+.bb {
+    border-bottom: 4px solid black;
+}
+
+.br {
+    border-right: 4px solid black;
+}
+
+.bt {
+    border-top: 4px solid black;
+}
